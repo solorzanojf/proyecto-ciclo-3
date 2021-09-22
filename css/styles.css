@@ -1,0 +1,24 @@
+/*Variables*/
+:root{
+	--tam-portada: 20rem;
+}
+
+/*Colores*/
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+.contenedor-portada{
+	position: relative;
+	height: auto;
+	width: var(--tam-portada);
+	overflow: hidden;
+}
+
+.portada{
+	position: absolute;
+	top: -50%;
+	height:calc(var(--tam-portada)*3);
+	width: auto;
+}
