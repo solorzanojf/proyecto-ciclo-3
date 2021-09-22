@@ -1,6 +1,6 @@
 /*Variables*/
 :root{
-	--tam-portada: 20rem;
+	--tam-portada: 40rem;
 }
 
 /*Colores*/
@@ -11,14 +11,19 @@ body{
 
 .contenedor-portada{
 	position: relative;
-	height: auto;
-	width: var(--tam-portada);
+	height: var(--tam-portada);
+	width: auto;
 	overflow: hidden;
 }
 
 .portada{
 	position: absolute;
-	top: -50%;
+	top: -75%;
 	height:calc(var(--tam-portada)*3);
 	width: auto;
+}
+
+.contenedor{
+	background-color: #c3c2c3;
+	border-radius: 5px;
 }
