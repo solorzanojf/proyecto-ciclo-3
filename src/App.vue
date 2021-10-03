@@ -15,13 +15,15 @@
             <b-nav-item :to="{name: 'Contact'}">Contactenos</b-nav-item>
           </b-navbar-nav>
           <b-navbar-nav>
-            <b-nav-item class="btn btn-outline-primary m-1" :to="{name: 'Login'}" >Login</b-nav-item>
+            <b-nav-item class="btn btn-outline-primary m-1" :to="{name: 'Login'}">Login</b-nav-item>
             <b-nav-item class="btn btn-outline-secondary m-1" :to="{name: 'Register'}">Registrarse</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-container>
     </b-navbar>
-    <router-view/>
+    <b-container>
+      <router-view/>
+    </b-container>
   </div>
 </template>
 
