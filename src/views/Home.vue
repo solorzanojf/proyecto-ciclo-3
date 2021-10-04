@@ -116,27 +116,27 @@
         <p>
         Contamos con capacidad de alojamiento para máximo 54 personas distribuidas de la siguiente manera:<br>
         1.	Casa principal, la cual cuenta con:<br>
-        •	3 habitaciones, cada una con capacidad para 6 persona<br>
-        •	2 baños<br>
-        •	Comedor interno<br>
-        •	Comedor externo<br>
-        •	Sala con tv por cable<br>
-        •	Cocina<br>
-        •	Estar con vistas a la piscina<br>
+        •	3 habitaciones, cada una con capacidad para 6 personas.<br>
+        •	2 Baños.<br>
+        •	Comedor interno.<br>
+        •	Comedor externo.<br>
+        •	Sala con tv por cable.<br>
+        •	Cocina.<br>
+        •	Estar con vistas a la piscina.<br>
         2.	Bloque de cabañas:<br>
-        •	4 habitaciones, cada una con capacidad para 6 personas, entrada independiente y baño privado<br>
+        •	4 habitaciones, cada una con capacidad para 6 personas, entrada independiente y baño privado.<br>
         3.	Habitaciones auxiliares:<br>
-        •	2 habitaciones, cada una con capacidad para 6 personas, entrada independiente, closet y baño compartido (al lado de las habitaciones)<br><br>
-        Adicionalmente la finca cuenta con amplios espacios al aire libre rodeades de una amplia variedad de flora y fauna (en el sector hay presencia de más de 400 especies de aves y otros animales silvestres) así como animales propios de la finca tanto de exhibición (patos, bimbos, pavos reales) y para el auto sustento de la fica (gallinas ponedoras, pollos de engorde, codornices, ganado lechero) y árboles frutales.<br><br>
+        •	2 habitaciones, cada una con capacidad para 6 personas, entrada independiente, closet y baño compartido (al lado de las habitaciones).<br><br>
+        Adicionalmente la finca cuenta con amplios espacios al aire libre rodeadas de una gran variedad de flora y fauna (en el sector hay presencia de más de 400 especies de aves y otros animales silvestres) así como animales propios de la finca tanto de exhibición (patos, bimbos, pavos reales) y para el auto sustento de la fica (gallinas ponedoras, pollos de engorde, codornices, ganado lechero) y árboles frutales.<br><br>
         Nuestros huéspedes pueden disfrutar de:<br>
         •	Piscina.<br>
         •	Wifi.<br>
         •	Duchas con agua caliente.<br>
         •	Acceso al río.<br>
-        •	Cocina externa, la cual cuenta con asador, estufa de leña, horno de leña, lava platos y excelente iluminación.<br>
+        •	Cocina externa, la cual cuenta con asador, estufa y horno de leña, lava platos y excelente iluminación.<br>
         •	Amplio estacionamiento.<br>
         •	Fácil acceso para personas con discapacidad.<br>
-        •	Juegos de masa.<br>
+        •	Juegos de mesa.<br>
         •	Juego de sapo.<br>
       </p>
     </b-jumbotron>
@@ -165,7 +165,7 @@
     class="m-1 text-dark"
   >
     <b-card-text>
-      Elaboracion de comidad para sus eventos especiales	
+      Servicio de comidas para su estadia o eventos especiales.	
     </b-card-text>
 
     <b-button href="https://www.instagram.com/mchefpalmira/" target= "blank" variant="primary">Instagram</b-button>
@@ -181,7 +181,7 @@
     class="m-1 text-dark"
   >
     <b-card-text>
-      Desayunos sorpresas y decoracion de eventos
+      Desayunos sorpresas y decoracion de eventos.
     </b-card-text>
 
     <b-button href="https://www.instagram.com/candyloverscol/" target= "blank" variant="primary">Instagram</b-button>
@@ -197,7 +197,7 @@
     class="m-1 text-dark"
   >
     <b-card-text>
-      Decoracion de eventos y arregles con globos
+      Decoracion de eventos y arreglos con globos.
     </b-card-text>
 
     <b-button href="https://www.instagram.com/jf.decoraciones/" target= "blank" variant="primary">Instagram</b-button>
@@ -213,7 +213,7 @@
     class="m-1 text-dark"
   >
     <b-card-text>
-      Animacion de eventos, Shows de baile y Montaje de coreografias
+      Animacion de eventos, shows de baile y montaje de coreografias.
     </b-card-text>
 
     <b-button href="https://www.instagram.com/kimbaralatin/" target= "blank" variant="primary">Instagram</b-button>
@@ -230,7 +230,7 @@
 
 <style>
   body{
-    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/double-bubble-dark.png"); 
+    background-image: url("https://fondosmil.com/fondo/14279.jpg"); 
   }
   .cont{
     border-radius: 5px;
