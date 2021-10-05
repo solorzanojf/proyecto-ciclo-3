@@ -18,7 +18,7 @@
     class="m-1 text-dark">
 
     <b-card-text>
-      @Jordan Buitrera
+      Encuentranos en FaceBook como @Jordan Buitrera.
     </b-card-text>
 
     <b-button href="https://www.facebook.com/jordan.buitrera.3" target= "blank" variant="primary">FaceBook</b-button>
@@ -33,7 +33,7 @@
     style="max-width: 20rem;"
     class="m-1 text-dark">
     <b-card-text>
-      Escanea el código QR para hablar con nosotros.a
+      Escanea el código QR para hablar con nosotros.
     </b-card-text>
     <b-card-text id="número">
       +57 3142647914
@@ -52,7 +52,9 @@
     tag="article"
     style="max-width: 20rem;"
     class="m-1 text-dark">
-
+    <b-card-text>
+      Escrivenos al correo  
+    </b-card-text>
     <b-card-text id="correo">
       eljordanlabuitrera@gmail.com
     </b-card-text>
