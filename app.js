@@ -30,7 +30,7 @@ app.use(express.urlencoded({ extended: true }))
 //     res.send('Hola mundo');
 
 // });
-app.use('/api', require('./routes/nota'));
+app.use('/api', require('./routes/usuario'));
 
 const history = require('connect-history-api-fallback'); 
 app.use(history()); 
@@ -38,7 +38,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //Puerto
 
+
 app.set('puerto', process.env.PORT || 3000); 
 app.listen(app.get('puerto'), function () { 
     console.log('Example app listening on port'+ app.get('puerto')); 
 });
+
+const servidor= app.listen(6000,()=>console.log("servidor corriendo"))
