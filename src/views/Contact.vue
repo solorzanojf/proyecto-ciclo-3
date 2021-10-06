@@ -59,7 +59,7 @@
       eljordanlabuitrera@gmail.com
     </b-card-text>
     
-     <b-button href="eljordanlabuitrera@gmail.com" target= "blank" variant="primary">Clicka para enviar email</b-button>
+     <b-button href="mailto:eljordanlabuitrera@gmail.com" target= "blank" variant="primary">Clicka para enviar email</b-button>
      <hr class="">
      <b-button v-on:click="copiar" target= "blank" variant="primary">Copiar correo</b-button>
     </b-card>
