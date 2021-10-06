@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex justify-content-center">
-    <b-form @submit="onSubmit" @reset="onReset" v-if="show" class="bg-dark p-4 formulario mt-5">
+    <b-form @submit.prevent="onSubmit" @reset="onReset" v-if="show" class="bg-dark p-4 formulario mt-5">
       <b-form-group
         id="input-group-1"
         label="Nombres y apellidos"
@@ -10,7 +10,7 @@
       >
         <b-form-input
           id="input-1"
-          v-model="form.nombre"
+          v-model="form.nombres"
           placeholder="Nombres"
           required
           class="mt-2"
@@ -18,7 +18,7 @@
 
         <b-form-input
           id="input-1"
-          v-model="form.apellido"
+          v-model="form.apellidos"
           placeholder="Apellidos"
           required
           class="mt-3"
@@ -30,7 +30,7 @@
       class="">
         <label for="b-form-select ">Tipo de documento</label>
         <b-form-select 
-        v-model="form.tipo_documento" 
+        v-model="form.tipodocumento" 
         :options="identidad"
         class="mb-3 input-identidad"></b-form-select>
         <label for="b-form-input ">Numero de documento</label>
@@ -88,28 +88,48 @@
   export default {
     data() {
       return {
+        forms:[],
         form: {
-          nombre: '',
-          apellido: '',
-          tipo_documento: 'a',
+          nombres: '',
+          apellidos: '',
+          tipodocumento: 'a',
           numero_documento: '',
           correo: '',
           numero_telefonico: '',
           password: '',
         },
-        tipo_de_documento: '',
         identidad:[
-            { value: 'a', text: 'Tarjeta de identidad' },
-            { value: 'b', text: 'Cedula ciudadana' },
-            { value: 'c', text: 'Pasaporte' },
+          { value: 'a', text: 'Tarjeta de identidad' },
+          { value: 'b', text: 'Cedula ciudadana' },
+          { value: 'c', text: 'Pasaporte' },
         ],
         show: true
       }
     },
     methods: {
-      onSubmit(event) {
-        event.preventDefault()
-        alert(JSON.stringify(this.form))
+      resetData(){
+        this.form.nombres = '',
+        this.form.apellidos = '',
+        this.form.tipodocumento = '',
+        this.form.numero_documento = '',
+        this.form.correo = '',
+        this.form.numero_telefonico = '',
+        this.form.password = ''
+      },
+
+      onSubmit() {
+        //añadimos el nuevo usuario
+        this.axios.post('/nuevo-usuario',this.form)
+        .then(res=>{
+            this.forms.push(res.data)
+            this.resetData();
+            this.showAlert();
+        })
+        .catch(e=>{
+
+            console.log(e.response);
+
+        })
       },
       onReset(event) {
         event.preventDefault()

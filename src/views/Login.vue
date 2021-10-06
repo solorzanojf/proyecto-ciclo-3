@@ -12,6 +12,7 @@
           id="input-1"
           v-model="form.correo"
           placeholder="juan@mintic.com"
+          type="email"          
           required
         ></b-form-input>
       </b-form-group>
@@ -47,9 +48,9 @@
       }
     },
     methods: {
-      onSubmit(event) {
-        event.preventDefault()
-        alert(JSON.stringify(this.form))
+      onSubmit() {
+        //redirigir al usuario al admin
+        this.$router.push('/admin');
       },
       onReset(event) {
         event.preventDefault()
