@@ -58,7 +58,9 @@
     <b-card-text id="correo">
       eljordanlabuitrera@gmail.com
     </b-card-text>
-
+    
+     <b-button href="eljordanlabuitrera@gmail.com">Clicka para enviar email</b-button>
+     <hr class="">
      <b-button v-on:click="copiar" target= "blank" variant="primary">Copiar correo</b-button>
     </b-card>
 
