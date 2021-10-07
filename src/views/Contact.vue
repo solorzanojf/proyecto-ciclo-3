@@ -21,7 +21,7 @@
       Encuentranos en FaceBook como @Jordan Buitrera.
     </b-card-text>
 
-    <b-button href="https://www.facebook.com/jordan.buitrera.3" target= "blank" variant="primary">FaceBook</b-button>
+    <b-button href="https://www.facebook.com/jordan.buitrera.3" target= "blank" variant="primary">FaceBook 🔗</b-button>
     </b-card>
 
     <b-card
@@ -39,9 +39,9 @@
       +57 3142647914
     </b-card-text>
   
-     <b-button href="https://wa.me/qr/CVP3CNZORFPWD1" target= "blank" variant="primary">Ir a whatsapp</b-button>
+     <b-button href="https://wa.me/qr/CVP3CNZORFPWD1" target= "blank" variant="primary">Ir a whatsapp 🔗</b-button>
     <hr class="">
-     <b-button v-on:click="copiar2" target= "blank" variant="primary">Copiar número</b-button>
+     <b-button v-on:click="copiar2" target= "blank" variant="primary">Copiar número 📄</b-button>
      </b-card>
 
     <b-card
@@ -59,9 +59,9 @@
       eljordanlabuitrera@gmail.com
     </b-card-text>
     
-     <b-button href="mailto:eljordanlabuitrera@gmail.com" target= "blank" variant="primary">Clicka para enviar email</b-button>
+     <b-button href="mailto:eljordanlabuitrera@gmail.com" target= "blank" variant="primary">Clicka para enviar email 🔗</b-button>
      <hr class="">
-     <b-button v-on:click="copiar" target= "blank" variant="primary">Copiar correo</b-button>
+     <b-button v-on:click="copiar" target= "blank" variant="primary">Copiar correo 📄</b-button>
     </b-card>
 
     </b-card-group>
