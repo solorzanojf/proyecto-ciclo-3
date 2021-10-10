@@ -158,7 +158,7 @@
 
         <b-card
     title="Mister Chef"
-    img-src="https://dsm01pap001files.storage.live.com/y4mfbkbV6FOn-AMMUg2MOn4D8GVCuBE5058XhHLu511KiG2zj0HveCKRT_9F2DZD4V7R_CEUx_e6aYMNCFavsHwZ3OBCP40jHxTwRdD-GPEwDy4vQhyUcUd2uWYchF-Uai9G7vdseLxNTFfQlzyFuYwmrm5nIUQBjkQoBaFXUJ7rmmszUigw64uEP1hlTckTBMqsQFBnqpXHH90PKqAaZ7dSA/MR%20CHEF.png?psid=1&width=292&height=199"
+    img-src="https://drive.google.com/uc?id=1ZjrsdHbuGNqIafuZu-Sona73oOLdcjVb"
     img-alt="Log Mister Chef"
     img-top
     style="max-width: 20rem;"
@@ -173,7 +173,7 @@
 
   <b-card
     title="CANDY LOVERS:"
-    img-src="https://dsm01pap001files.storage.live.com/y4mi5fEW0Z-BLMjRyAsxWVy_CzkRZyzmukjII_SjpPhE9idE2DVAh76Qr3uNEjCTIwMex85IVYv32jSi9PpH0DgqLB3z9JWi1JT4ygiX4Bn0XxwNiPqehk55-CT9bBTBbCkogV5Qev1dLgk4Qhj63a8CWzV4gCP90B8HIttprLrLsIvM2tchFaPtVDm8p6yCmE2yJXYOxdKt9BdUgcUaaFj_w/CANDY%20LOVERS.jpg?psid=1&width=300&height=300&cropMode=center"
+    img-src="https://drive.google.com/uc?id=1rLV0cyxLjsEEUCk7fJOgwBepMhq8nei0"
     img-alt="Log CANDY LOVERS:"
     img-top
     tag="article"
@@ -189,7 +189,7 @@
 
   <b-card
     title="JF DECORACIONES"
-    img-src="https://dsm01pap001files.storage.live.com/y4m_GuJZWPeMkWJzawLU7632A5UJa10Ec8mXcKB5bS7bUeZg_ag_R4RsPnT1cvbD_CIS0TdCpbGMyskabVOTuAoAQ1mlOlLGikA-Mtk3hTocljL96vyo1t0KKP1kcVSkaCKuwOgQM75uUQOLke1KIH02EfEvFbrMdyB_HSvr0m3knM27eE5GPr6sHfQTeV7jUUQPz1RHX4dKU7tc8LQ4jT5LQ/jf%20decoraciones.jpeg?psid=1&width=304&height=300"
+    img-src="https://drive.google.com/uc?id=1tj_ZqRtv2BFO0diRwX1o5yVtXQyc9EQb"
     img-alt="Log JF DECORACIONES"
     img-top
     tag="article"
@@ -205,7 +205,7 @@
 
   <b-card
     title="KIMBARA LATIN SHOW"
-    img-src="https://dsm01pap001files.storage.live.com/y4mvqUmlqciMjbpczE0kdYaRI9udmYW89jeRADnh7GI1Qf2DkTrMOS9OG61nky4taBstGash5XolhbQQ6FjzScGgWxw9sMHcnScsF4kgLHr_pLVbXGAgsGLwZ-2Us5MtQ1aWcroCgaRGZVpeTOJVM3dPoDI99WhYtSyK02oNt1uWX2yVnDMukgNMPn9CfGMrzHug-f7ReXsWR43CV-nIsTF0Q/kimbara.jpeg?psid=1&width=834&height=561"
+    img-src="https://drive.google.com/uc?id=1bIIM0j7Qm_CEDbf2AuAqvY48ntPVH_Ta"
     img-alt="Log KIMBARA LATIN SHOW"
     img-top
     tag="article"

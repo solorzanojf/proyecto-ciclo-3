@@ -39,7 +39,7 @@
       +57 3142647914
     </b-card-text>
   
-     <b-button href="https://wa.me/qr/CVP3CNZORFPWD1" target= "blank" variant="primary">Ir a whatsapp 🔗</b-button>
+     <b-button href="https://api.whatsapp.com/send?phone=573142647914&text=Hola, Nececito mas informacion!" target= "blank" variant="primary">Ir a whatsapp 🔗</b-button>
     <hr class="">
      <b-button v-on:click="copiar2" target= "blank" variant="primary">Copiar número 📄</b-button>
      </b-card>
