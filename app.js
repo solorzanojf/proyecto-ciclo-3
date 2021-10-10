@@ -31,7 +31,7 @@ app.use(express.urlencoded({ extended: true }))
 
 // });
 app.use('/api', require('./routes/usuario'));
-app.use('/api', require('./routes/reserva'));
+app.use('/api', require('./routes/cotizacion'));
 
 const history = require('connect-history-api-fallback'); 
 app.use(history()); 

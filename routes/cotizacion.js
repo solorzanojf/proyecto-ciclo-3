@@ -1,18 +1,18 @@
 import express from 'express'
 const router = express.Router();
 
-//importar el modelo de las reservas
+//importar el modelo de las cotizaciones
 
-import Reservas from '../models/Reservas';
+import Cotizaciones from '../models/Cotizaciones';
 
-// Crear nueva reserva
-router.post('/nueva-reserva', async(req, res)=>{
+// Crear nueva cotización
+router.post('/nueva-cotizacion', async(req, res)=>{
 
 const body = req.body;
 try {
 
-    const resevarDB= await Reservas.create(body);
-    res.status(200).json(resevarDB);
+    const cotizarDB= await Cotizaciones.create(body);
+    res.status(200).json(cotizarDB);
     
 } catch (error) {
 
@@ -25,16 +25,16 @@ try {
     }
 });
 
-//Busqueda por ID de reserva
+//Busqueda por ID de cotización
 
-router.get('/Reservas/:id', async(req, res)=>{
+router.get('/Cotizaciones/:id', async(req, res)=>{
 
     const _id=req.params.id;
 
     try {
 
-        const resevarDb= await Reservas.findOne({_id});
-        res.json(resevarDb);
+        const cotizarDb= await Cotizaciones.findOne({_id});
+        res.json(cotizarDb);
         
     } catch (error) {
 
@@ -47,14 +47,14 @@ router.get('/Reservas/:id', async(req, res)=>{
     }
 });
 
-//Busqueda de todas las reservas
+//Busqueda de todas las cotizaciones
 
-router.get('/Reservas',async(req,res)=>{
+router.get('/Cotizaciones',async(req,res)=>{
 
     try {
 
-        const resevarDb=await Reservas.find();
-        res.json(resevarDb);
+        const cotizarDb=await Cotizaciones.find();
+        res.json(cotizarDb);
         
     } catch (error) {
 
@@ -67,22 +67,22 @@ router.get('/Reservas',async(req,res)=>{
     }
 });
 
-// eliminar reserva
+// eliminar cotización
 
-router.delete('/Reservas/:id', async(req,res)=>{
+router.delete('/Cotizaciones/:id', async(req,res)=>{
 
 
     const _id=req.params.id;
 
     try {
 
-        const resevarDb=await Reservas.findByIdAndDelete({_id});
-        if(!resevarDb){ 
+        const cotizarDb=await Cotizaciones.findByIdAndDelete({_id});
+        if(!cotizarDb){ 
             return res.status(400).json({ 
                 mensaje: 'No se encontró el id indicado', error 
             }) 
         } 
-        res.json(resevarDb);
+        res.json(cotizarDb);
         
     } catch (error) {
 
@@ -95,17 +95,17 @@ router.delete('/Reservas/:id', async(req,res)=>{
     }
 });
 
-//Actualizar reserva
+//Actualizar cotización
 
-router.put('/Reservas/:id', async(req,res)=>{
+router.put('/Cotizaciones/:id', async(req,res)=>{
 
     const _id=req.params.id;
     const body =req.body;
 
     try {
 
-        const resevarDb= await Reservas.findByIdAndUpdate(_id,body,{new:true});
-        res.json(resevarDb);
+        const cotizarDb= await Cotizaciones.findByIdAndUpdate(_id,body,{new:true});
+        res.json(cotizarDb);
         
     } catch (error) {
 
