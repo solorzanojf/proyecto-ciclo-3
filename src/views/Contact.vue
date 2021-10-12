@@ -26,7 +26,7 @@
 
     <b-card
     title="whatsapp:"
-    img-src="https://cdn.pixabay.com/photo/2021/10/05/17/23/17-23-43-560_960_720.jpg"
+    img-src="https://dsm01pap001files.storage.live.com/y4mvk9z5sItlFD7mW-6xi0JGwf1-c7vzGr0AYlCMBtfsZWuwUXt8f2OVlkfix8VyUsJvVV-k79OYD_3Qwf9Xc0azHmqs0BVspnMkwG1IOvxT5A6Hu9wou21KW-TymF-cpkW6xhZKNwwhu-s8g9Mf2Km-E2FWnwUqPDc2hJEwkrjJtt0-jXy4HEluQNE9ceLYpP_?width=185&height=182&cropmode=none"
     img-alt="whatsapp"
     img-top
     tag="article"
