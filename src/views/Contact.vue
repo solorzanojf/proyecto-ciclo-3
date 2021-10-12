@@ -26,6 +26,10 @@
 
     <b-card
     title="whatsapp:"
+<<<<<<< HEAD
+=======
+    
+>>>>>>> b5ee39e5f0d1a90ae26f95c6fb9cb9462e813e88
     img-src="https://dsm01pap001files.storage.live.com/y4mvk9z5sItlFD7mW-6xi0JGwf1-c7vzGr0AYlCMBtfsZWuwUXt8f2OVlkfix8VyUsJvVV-k79OYD_3Qwf9Xc0azHmqs0BVspnMkwG1IOvxT5A6Hu9wou21KW-TymF-cpkW6xhZKNwwhu-s8g9Mf2Km-E2FWnwUqPDc2hJEwkrjJtt0-jXy4HEluQNE9ceLYpP_?width=185&height=182&cropmode=none"
     img-alt="whatsapp"
     img-top
