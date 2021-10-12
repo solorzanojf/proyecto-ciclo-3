@@ -90,6 +90,7 @@
       return {
         forms:[],
         form: {
+          roll: "usuario",
           nombres: '',
           apellidos: '',
           tipodocumento: 'a',

@@ -40,6 +40,7 @@
   export default {
     data() {
       return {
+        Usuario: {},
         form: {
           correo: '',
           password: '',
@@ -50,7 +51,16 @@
     methods: {
       onSubmit() {
         //redirigir al usuario al admin
-        this.$router.push('/admin');
+        this.axios.post('/LoginUser',this.form)
+        .then(res=>{
+            this.Usuario.push(res.data)
+            this.$router.push('/admin');
+        })
+        .catch(e=>{
+
+            alert(e.response);
+
+        })
       },
       onReset(event) {
         event.preventDefault()
