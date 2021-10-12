@@ -1,4 +1,6 @@
 import express from 'express'
+var bodyParser = require('body-parser');
+
 const router = express.Router();
 
 //importar el modelo registro
@@ -122,26 +124,26 @@ router.put('/Usuarios/:id', async(req,res)=>{
 
 //Busqueda por correo y password
 
-router.get('/Usuarios/:correo/:password', async(req, res)=>{
+router.post('/LoginUser', async(req, res)=>{
 
-    const _correo=req.params.correo;
-    const _password=req.params.password;
+    //guardo el objeto que quiero comparar
+    const {correo, password} = req.body;
 
-
-    try {
-
-        const usuarioDb= await Usuarios.find({_correo,_password});
-        res.json(usuarioDb);
-        
-    } catch (error) {
-
-        return res.status(500).json({
-
-            mensaje:'Ocurrio un error',
-            error
-        })
-        
-    }
+    Usuarios.findOne({correo}, (err, user) => {
+        if(err){
+            res.json("error de autenticacion -> " + err);
+        }else if(!user){
+            res.json("el email no existe ->" + err);
+        }else{
+            user.isCorrect(password, (err, result) => {
+                if(err){
+                    res.json("error de autenticacion de password -> " + err);
+                }else if(result){
+                    res.json(user);
+                }
+            });
+        }
+    });
 });
 
 //Exportacion de router
